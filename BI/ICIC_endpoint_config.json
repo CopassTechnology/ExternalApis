@@ -1,0 +1,87 @@
+{
+    "Live": {
+        //endpoint config for ICICI
+        "Param": {
+            "x-forwarded-for": "20.204.72.116",
+            "host": "apibankingonesandbox.icicibank.com",
+            "apikey": "WBCw0KvUfJs8InGsmLA2KQpofZoMvwVj",
+            "AGGRNAME": "COPASS",
+            "AGGRID": "BAAS0036",
+            "CORPID": "COPASSTE04082020",
+            "USERID": "ANILJADH",
+            "URN": "SR205199401",
+            "ACCOUNTNO": "120905000909",
+            "UNIQUEID": "12345",
+            "DEBITACC": "", 
+            "CREDITACC": "",
+            "IFSC": "",
+            "OTP": null,
+            "CURRENCY": "",
+            "TXNTYPE": "",
+            "PAYEENAME": "",
+            "WORKFLOW_REQD": "",
+            "REMARKS": "Developer Integration Live Testing",
+            "BENLEI": ""
+
+        },
+      "Endpoints": {
+        "iciciRegApi": "https://apibankingone.icicibank.com/api/Corporate/CIB/v1/Registration",
+        "iciciRegStatApi": "https://apibankingone.icicibank.com/api/Corporate/CIB/v1/RegistrationStatus",
+        "iciciDeRegApi": "https://apibankingone.icicibank.com/api/Corporate/CIB/v1/Deregistration",
+        "iciciBalFetchApi": "https://apibankingone.icicibank.com/api/Corporate/CIB/v1/BalanceInquiry",
+        // Bank Statements
+        "iciciLinkedBankStatementAPI": "https://apibankingone.icicibank.com/api/Corporate/CIB/v1/AccountStatement",
+        "iciciLinkedBankStatementPagination": "https://apibankingone.icicibank.com/api/Corporate/CIB/v1/AccountStatement",
+        // Transactions
+        "iciciLinkedTransactional": "https://apibankingone.icicibank.com/api/Corporate/CIB/v1/Transaction",
+        "iciciLinkedTransactionalStatus": "https://apibankingone.icicibank.com/api/Corporate/CIB/v1/TransactionInquiry",
+        "iciciLinkedTransactionOTP": "https://apibankingone.icicibank.com/api/Corporate/CIB/v1/TransactionOTP",
+        // OTP
+        "iciciLinkedCreateOTP": "https://apibankingone.icicibank.com/api/Corporate/CIB/v1/Create"
+
+      }
+    },
+
+    "Uat": {
+        "Param": {
+            "x-forwarded-for": "20.204.72.116",
+            "host": "apibankingonesandbox.icicibank.com",
+            "apikey": "Mon4MP0vIMCXYEQrwVvbfJ6kpoAL5dzU",
+            "AGGRNAME": "COPASS",
+            "AGGRID": "BAAS0036",
+            "CORPID": "PRACHICIB1",
+            "USERID": "USER3",
+            "URN": "SR205199401",
+            "ACCOUNTNO": "000451000301",
+            "UNIQUEID": "12345",
+            "DEBITACC": "000451000301",
+            "CREDITACC": "000405002777",
+            "IFSC": "ICIC0000011",
+            "OTP": null,
+            "CURRENCY": "1",
+            "TXNTYPE": "TPA",
+            "PAYEENAME": "Copass0021",
+            "WORKFLOW_REQD": "",
+            "REMARKS": "Developer Integration UAT Testing",
+            "BENLEI": ""
+
+        },
+        "Endpoints": {
+            "iciciRegApi": "https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/Registration",
+            "iciciRegStatApi": "https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/RegistrationStatus",
+            "iciciDeRegApi": "https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/Deregistration",
+            "iciciBalFetchApi": "https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/BalanceInquiry",
+            // Bank Statements
+            "iciciLinkedBankStatementAPI": "https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/AccountStatement",
+            "iciciLinkedBankStatementPagination": "https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/AccountStatements",
+            // Transactions
+            "iciciLinkedTransactional": "https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/Transaction",
+            "iciciLinkedTransactionalStatus": "https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/TransactionInquiry",
+            "iciciLinkedTransactionOTP": "https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/TransactionOTP",
+            // OTP
+            "iciciLinkedCreateOTP": "https://apibankingonesandbox.icicibank.com/api/Corporate/CIB/v1/Create"
+        }
+    }
+
+
+}
